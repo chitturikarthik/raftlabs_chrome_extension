@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["entrypoints/**/*.ts", "entrypoints/**/*.tsx", "background.ts", "content.ts"],
+  "exclude": ["node_modules"]
+}
